@@ -1,0 +1,8 @@
+.raw-cache/
+.obsidian/
+pipeline_log.txt
+venv/
+.notebooklm_uploaded.txt
+.env
+.notion_synced.json
+raw/
