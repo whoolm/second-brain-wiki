@@ -52,3 +52,19 @@ switch_model.bat
 
 # Jangan lupa folder raw (sudah ada)
 raw/
+*.py
+*.bat
+*.log
+__pycache__/
+chroma_db/
+_Dashboard/
+.agents/
+api_server*
+notebooklm_uploader.py
+notion_sync.py
+rag_engine.py
+vector_index.py
+utils.py
+*.bak
+AGENTS.md
+README.md
