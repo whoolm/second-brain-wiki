@@ -1,8 +1,54 @@
-.raw-cache/
-.obsidian/
-pipeline_log.txt
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
 venv/
-.notebooklm_uploaded.txt
-.env
-.notion_synced.json
+.venv/
+
+# Logs & temporary files
+logs/
+*.log
+
+# Database & indexes
+chroma_db/
+vector_index/
+
+# API server
+api_server.log
+api_server_error.log
+
+# Configuration (jika berisi rahasia)
+config.yaml
+config-researcher.yaml
+
+# Scripts and binaries
+*.bat
+*.ps1
+.agents/
+
+# Lainnya
+_Dashboard/
+_file_list.md
+__pycache__/
+raw_selected/
+notion_sync.py
+notebooklm_uploader.py
+rag_engine.py
+rag_test.py
+vector_index.py
+create_notion_database.py
+debug_*.py
+fix_*.py
+auto_classify.py
+logger.py
+utils.py
+opencode_*.py
+daily_pipeline.bat*
+start_api.bat
+stop_api.bat
+switch_model.bat
+
+# Jangan lupa folder raw (sudah ada)
 raw/
