@@ -67,4 +67,6 @@ vector_index.py
 utils.py
 *.bak
 AGENTS.md
-README.md
+README.md.env
+hermes-agent/
+wiki/synthesis/daily-summary-*.md
